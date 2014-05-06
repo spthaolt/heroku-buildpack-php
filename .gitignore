@@ -1,2 +1,10 @@
 composer.lock
 vendor
+.channels/
+.depdb
+.depdblock
+.filemap
+.lock
+app/
+build/
+

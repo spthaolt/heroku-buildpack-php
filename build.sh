@@ -97,6 +97,8 @@ popd
 # Copy in MySQL client library.
 mkdir -p $DIRAPP/php/lib/php
 cp /usr/lib/x86_64-linux-gnu/libmysqlclient.so.18 $DIRAPP/php/lib/php
+cp /lib/x86_64-linux-gnu/libcrypto.so.1.0.0 $DIRAPP/php/lib/php
+cp /lib/x86_64-linux-gnu/libssl.so.1.0.0 $DIRAPP/php/lib/php
 
 # 'apc' installation
 #
